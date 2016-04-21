@@ -12,4 +12,5 @@ This is a code to fix and organize raw GPS data. It includes:
 - Extracting distance from forest edges from raster maps
 
 This code was originally used to analyze Golden Lion Tamarin (Leontopithecus chrysopygus) GPS data.
+
 If you have any questions, feel free to contact us.
