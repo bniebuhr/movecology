@@ -258,7 +258,7 @@ edge.dist.west <- raster("area_estudo_SM_1_wgs_latlon_to_wgs_UTM22S_polygon_to_r
 #plot(edge.dist.west)
 
 # Extracting distances to points
-dist <- extract(edge.dist, Ltrj.filt.df[,c("x","y")])
+dist.edge <- extract(edge.dist, Ltrj.filt.df[,c("x","y")])
 dist.north <- extract(edge.dist.north, Ltrj.filt.df[,c("x","y")])
 dist.west <- extract(edge.dist.west, Ltrj.filt.df[,c("x","y")])
 
