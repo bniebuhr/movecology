@@ -2,7 +2,7 @@
 
 The code and data presented here are the appendices of
 
-Da Silveira NS, Niebuhr BBS, Muylaert RdL, Ribeiro MC, Pizo MA (2016) Effects of Land Cover on the Movement of Frugivorous Birds in a Heterogeneous Landscape. PLoS ONE 11(6): e0156688. doi:10.1371/journal.pone.0156688
+Da Silveira NS, Niebuhr BBS, Muylaert RdL, Ribeiro MC, Pizo MA (2016) [Effects of Land Cover on the Movement of Frugivorous Birds in a Heterogeneous Landscape] (http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0156688). PLoS ONE 11(6): e0156688. doi:10.1371/journal.pone.0156688
 
 Here we present the code for movement analysis of thrushes movement patterns in a fragmented landscape. Thrush movement was collected using radiotelemetry. We used a likelihood-based approach to fit models with different distributions and covariates to movement variables calculated based on this data - average speed and turning angles. 
 
