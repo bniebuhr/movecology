@@ -15,9 +15,9 @@ The analyses follow this sequence of steps:
 
 
 This repository has the following files:
-* `dados_final.csv`: Data for analysis
-* `Silveira_etal_Appendix_S1_R_code.R`: Code for the main analysis (Appendix 1 of the manuscript)
-* `lik.int_source_code.R`: Auxiliary R function to plot likelihood intervals
+* [`dados_final.csv`](dados_final.csv): Data for analysis
+* [`Silveira_etal_Appendix_S1_R_code.R`](Silveira_etal_Appendix_S1_R_code.R): Code for the main analysis (Appendix 1 of the manuscript)
+* [`lik.int_source_code.R`](lik.int_source_code.R): Auxiliary R function to plot likelihood intervals
 
 
 If you have any questions, feel free to contact us:
