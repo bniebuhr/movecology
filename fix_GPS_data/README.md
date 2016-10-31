@@ -4,7 +4,7 @@ By Karl Mokross (kmkross@gmail.com) and Bernardo Niebuhr (bernardo_brandaum@yaho
 
 This is a code to fix and organize raw GPS data. It includes:
 - Removing large empty gaps (in this example, 30 min.)
-- Regularizing trajctories
+- Regularizing trajectories
 - Filling small gaps (by interpolation)
 - Applying a Kalman Filter (Smoothing trajectories)
 - Applying a GAL Filter (Correcting extreme wrong moves)
