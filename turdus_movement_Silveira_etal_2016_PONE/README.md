@@ -7,7 +7,7 @@ Da Silveira NS, Niebuhr BBS, Muylaert RdL, Ribeiro MC, Pizo MA (2016) [Effects o
 Here we present the code for movement analysis of thrushes movement patterns in a fragmented landscape. Thrush movement was collected using radiotelemetry. We used a likelihood-based approach to fit models with different distributions and covariates to movement variables calculated based on this data - average speed and turning angles. 
 
 The analyses follow this sequence of steps:
-- Choice a distribution for the response variable
+- Choose a distribution for the response variable
 - Select different combinations of covariates
 - Write the likelihood function for a model with each combination of covariates
 - Fit the model - search the best parameters, based on data and the likelihood function
