@@ -121,6 +121,7 @@ for(i in 1:length(ids)) { ## plot all curves with 2 seconds interval
   cumHR.df.mult <- cum.df[,c(2,seq(1, ncol(cum.df), 2))]
   
   cumHR.df.mult2 <- data.frame(npoins = rep(cumHR.df.mult[,1], iterations), HR = unlist(c(cumHR.df.mult[,2:ncol(cumHR.df.mult)])))
-  boxplot(cumHR.df.mult2$HR ~ as.factor(cumHR.df.mult2$npoins))
+  boxplot(cumHR.df.mult2$HR ~ as.factor(cumHR.df.mult2$npoins), 
+          main = '', xlab="Number of locations",ylab="MCP 100% area (ha)")
   Sys.sleep(1)
 }
