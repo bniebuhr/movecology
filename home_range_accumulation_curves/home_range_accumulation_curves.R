@@ -5,6 +5,10 @@
 #
 # Until now, only using MCP
 #
+# This script is greatly based on previous code by
+# Carlos A. Zucco and Luiz Gustavo Oliveira-Santos
+# (Thanks to them!)
+#
 # Bernardo Niebuhr <bernardo_brandaum@yahoo.com.br>
 # Aug. 2018
 #---------------------------------------------------
