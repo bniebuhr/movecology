@@ -47,6 +47,7 @@ ids <- unique(turdus.utm$tag_id)
 
 ### MCP 100%
 ### Parameters to control
+MCP_percentage <- 95
 cumHRmcp <- list() ## List with cumulative sample size for all individuals
 for (i in 1:length(ids)) {  ## loop for individuals
   temp <- turdus.utm[which(turdus.utm$tag_id == ids[i]),] # select an individual
@@ -54,7 +55,7 @@ for (i in 1:length(ids)) {  ## loop for individuals
   temp <- SpatialPoints(coordinates(temp)[sample(length(temp)),], CRS(proj4string(turdus.utm)))
   cumulative <- vector()
   for(k in 5:length(temp)){  ##loop for sample size from 5 locations to all locations
-    cumulative[k] <- mcp.area(temp[1:k,], percent=100, plotit=F)
+    cumulative[k] <- mcp.area(temp[1:k,], percent = MCP_percentage, plotit = F)
   }  
   cumHRmcp[[i]] <- data.frame(hr = unlist(cumulative), ssize = 5:length(temp))
 }
@@ -79,6 +80,7 @@ iterations <- 20
 
 ### MCP 100%
 ### Parameters to control
+MCP_percentage <- 95
 cumHRmcp <- list() ## List with cumulative sample size for all individuals
 for (i in 1:length(ids)) {  ## loop for individuals
   print(i)
@@ -89,7 +91,7 @@ for (i in 1:length(ids)) {  ## loop for individuals
     temp <- SpatialPoints(coordinates(temp)[sample(length(temp)),], CRS(proj4string(turdus.utm)))
     cumulative <- vector()
     for(k in 5:length(temp)){  ##loop for sample size from 5 locations to all locations
-      cumulative[k] <- mcp.area(temp[1:k,], percent=100, plotit=F)
+      cumulative[k] <- mcp.area(temp[1:k,], percent = MCP_percentage, plotit = F)
     }  
     cumHRmcp[[i]][[j]] <- data.frame(hr = unlist(cumulative), ssize = 5:length(temp))
   }
