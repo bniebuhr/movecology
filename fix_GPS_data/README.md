@@ -2,7 +2,7 @@
 
 By [Karl Mokross](https://sites.google.com/view/karlmokrossresearch/home) and Bernardo Niebuhr (bernardo_brandaum@yahoo.com.br)
 
-The main script is a code to fix and organize raw GPS data. It includes:
+The [main script](https://github.com/bniebuhr/movecology/blob/master/fix_GPS_data/analysis_BLT_yness.R) is a code to fix and organize raw GPS data. It includes:
 - Removing large empty gaps (in this example, 30 min.)
 - Regularizing trajectories
 - Filling small gaps (by interpolation)
