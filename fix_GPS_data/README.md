@@ -1,6 +1,6 @@
 # Fixing GPS data and preparing it to movement analyses
 
-By Bernardo Niebuhr (bernardo_brandaum@yahoo.com.br) and [Karl Mokross](https://sites.google.com/view/karlmokrossresearch/home)
+By [Bernardo Niebuhr](bernardo_brandaum@yahoo.com.br) and [Karl Mokross](https://sites.google.com/view/karlmokrossresearch/home)
 
 The [main script](https://github.com/bniebuhr/movecology/blob/master/fix_GPS_data/analysis_BLT_yness.R) is a code to fix and organize raw GPS data. It includes:
 - Removing large empty gaps (in this example, 30 min.)
