@@ -13,4 +13,6 @@ The main script is a code to fix and organize raw GPS data. It includes:
 
 This code was originally used to analyze Black Lion Tamarin (*Leontopithecus chrysopygus*) GPS data.
 
+You may also find another [script](https://github.com/bniebuhr/movecology/blob/master/fix_GPS_data/calculate_fix_rate_success.R) to calculate the fix rate success for GPS collars by comparing the expected and actual number of GPS locations recorded by GPS devices.
+
 If you have any questions, feel free to contact us.
