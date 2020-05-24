@@ -1,8 +1,8 @@
 # Fixing GPS data and preparing it to movement analyses
 
-By Karl Mokross (kmkross@gmail.com) and Bernardo Niebuhr (bernardo_brandaum@yahoo.com.br)
+By [Karl Mokross](https://sites.google.com/view/karlmokrossresearch/home) and Bernardo Niebuhr (bernardo_brandaum@yahoo.com.br)
 
-This is a code to fix and organize raw GPS data. It includes:
+The main script is a code to fix and organize raw GPS data. It includes:
 - Removing large empty gaps (in this example, 30 min.)
 - Regularizing trajectories
 - Filling small gaps (by interpolation)
