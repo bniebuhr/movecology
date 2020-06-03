@@ -217,3 +217,4 @@ for(i in 1:length(ids)) { ## plot all curves with 2 seconds interval
           ylab = paste0("KDE ", KDE_percentage, "% area (ha)"))
   Sys.sleep(1)
 }
+
