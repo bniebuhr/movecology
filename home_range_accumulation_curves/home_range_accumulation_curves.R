@@ -22,8 +22,8 @@ install.load::install_load('move', 'adehabitatHR')
 # First you have to login on MoveBank with you 
 # MoveBank username and password
 # (I am ommitting that from here)
-movebank_login <- movebankLogin(username = "bniebuhr",#  "YourUserName", 
-                                password = "gatopreto87")#"YourPassword")
+movebank_login <- movebankLogin(username = "YourUserName", 
+                                password = "YourPassword")
 
 # Now we search for studies with Turdus
 studies <- searchMovebankStudies(x = "Turdus", login = movebank_login)
