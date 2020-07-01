@@ -17,7 +17,8 @@ Most of the folders have further description within them.
 These pieces of code are intended for educational and research purposes, you are free to use and modify them. If you do so, you are not obliged to share you code, but i really encourage you to do so!
 If you need any modification or found an error, please submit an [issue](https://github.com/bniebuhr/movecology/issues/new) or email me at bernardo_brandaum@yahoo.com.br.
 
-Also, if you use this code, please cite the repository.
+Also, if you use this code, please cite the repository: 
+[![DOI](https://zenodo.org/badge/26168984.svg)](https://zenodo.org/badge/latestdoi/26168984)
 
 ## License 
 
