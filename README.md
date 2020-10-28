@@ -8,6 +8,7 @@ Up to this moment, there is code to deal with:
 - correction of summer and winter time in animal movement data (that in some cases may lead to complications);
 - data cleaning and regularizing for animal GPS movement data;
 - building home range accumulation curves based on MCP and KDE appraches;
+- a presentation on integrated step-selection approach to understand resource selection and animal movement;
 - fitting multiple models to animal movement data, according to [Da Silveira et al. (2016)](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0156688).
 
 Most of the folders have further description within them.
