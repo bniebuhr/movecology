@@ -2,7 +2,7 @@
 
 This is a repository to share codes on animal movement analyses and simulations. 
 
-# Repository description
+## Repository description
 
 Up to this moment, there is code to deal with:
 - correction of summer and winter time in animal movement data (that in some cases may lead to complications);
@@ -14,7 +14,7 @@ Up to this moment, there is code to deal with:
 
 Most of the folders have further description within them.
 
-# Usage
+## Usage
 
 These pieces of code are intended for educational and research purposes, you are free to use and modify them. If you do so, you are not obliged to share your code, but I really encourage you to do so!
 If you need any modification or found an error, please submit an [issue](https://github.com/bniebuhr/movecology/issues/new) or email me at bernardo_brandaum@yahoo.com.br.
